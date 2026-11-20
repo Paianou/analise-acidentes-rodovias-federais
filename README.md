@@ -3,6 +3,7 @@
 Projeto final do curso de **Análise de Dados (EBAC × Semantix)**, por **Thiago Paiano**.
 
 📊 **Painel no Looker Studio:** https://lookerstudio.google.com/reporting/7dca66da-81a4-4244-8911-3646c71f6026
+
 📓 **Análise exploratória:** [`notebooks/analise_exploratoria.ipynb`](notebooks/analise_exploratoria.ipynb)
 
 ---
