@@ -2,7 +2,7 @@
 
 Projeto final do curso de **Análise de Dados (EBAC × Semantix)**, por **Thiago Paiano**.
 
-📊 **Painel no Looker Studio:** LINK_DO_PAINEL
+📊 **Painel no Looker Studio:** https://lookerstudio.google.com/reporting/7dca66da-81a4-4244-8911-3646c71f6026
 📓 **Análise exploratória:** [`notebooks/analise_exploratoria.ipynb`](notebooks/analise_exploratoria.ipynb)
 
 ---
@@ -135,7 +135,23 @@ Para separar efeitos que se sobrepõem (por exemplo, trecho rural costuma ser pi
 | 5 | **Plano regional Norte/Nordeste** (MA, PA, TO, BA): investir em atendimento pré-hospitalar (tempo-resposta do SAMU) e em infraestrutura | Letalidade 1,8 a 2,5× a média nacional |
 | 6 | **Monitoramento contínuo** com o painel, usando letalidade e mortes (não o total de acidentes) como indicadores oficiais | Total de acidentes distorcido por mudança de registro |
 
-## 6. Conclusões
+## 6. Painel (Looker Studio)
+
+[Abrir o painel](https://lookerstudio.google.com/reporting/7dca66da-81a4-4244-8911-3646c71f6026). Fonte: `dados/processados/looker_acidentes_agregado.csv`, com o campo calculado `Letalidade = SUM(mortos) / SUM(acidentes) * 100`.
+
+O que o painel mostra:
+- **Filtros** de Ano e UF, que recalculam todos os indicadores;
+- **KPIs:** mortos, acidentes registrados, mortos a cada 100 acidentes e feridos graves;
+- **Evolução anual:** mortos (barras) e letalidade (linha), de 2017 a 2025;
+- **Letalidade por tipo de acidente**, com a colisão frontal no topo;
+- **Mortos por causa** (12 grupos harmonizados);
+- **Letalidade por UF**, com o Maranhão no topo;
+- **Letalidade por tipo de pista, fase do dia e área** (rural × urbano);
+- **Quadro de interpretação** com as ações sugeridas.
+
+Cada gráfico tem um título que diz a conclusão, não apenas o que está plotado (*storytelling*).
+
+## 7. Conclusões
 
 O risco de morrer nas rodovias federais está **concentrado e é previsível**: colisões frontais e atropelamentos, em pistas simples e rurais, à noite, em um conjunto identificável de trechos e estados. Isso é uma boa notícia para a política pública, porque permite **focalizar investimentos**. Duplicar ou separar sentidos nos trechos críticos e reforçar a fiscalização noturna de ultrapassagem e velocidade atacam diretamente quase metade das mortes. Sem essa mudança de foco, a tendência observada (mortes estáveis ou em alta desde 2020) torna inviável a meta de reduzir as mortes à metade até 2030.
 
@@ -145,7 +161,7 @@ O risco de morrer nas rodovias federais está **concentrado e é previsível**: 
 - a mudança de taxonomia em 2021 exigiu agrupar as causas;
 - falta um denominador de exposição (volume de tráfego/km rodado), então a letalidade compara gravidade, não risco por viagem.
 
-## 7. Estrutura do repositório
+## 8. Estrutura do repositório
 ```
 ├── README.md                         ← esta documentação
 ├── src/preparar_dados.py             ← limpeza, harmonização e agregações
