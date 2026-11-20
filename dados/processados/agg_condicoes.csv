@@ -1,0 +1,57 @@
+tipo_pista,urbano,clima,acidentes,mortos,feridos_graves,acidentes_fatais,mortos_por_100
+Dupla,False,Chuva,21169,713,3110,634,3.37
+Dupla,False,Céu Claro,70328,4326,15657,3933,6.15
+Dupla,False,Garoa/Chuvisco,5694,250,761,229,4.39
+Dupla,False,Granizo,3,0,0,0,0.0
+Dupla,False,Nevoeiro/Neblina,1216,135,259,115,11.1
+Dupla,False,Nublado,21921,1322,4429,1187,6.03
+Dupla,False,Sol,7901,352,1640,321,4.46
+Dupla,False,Vento,312,18,91,17,5.77
+Dupla,False,,1607,118,327,110,7.34
+Dupla,True,Chuva,11203,420,1996,391,3.75
+Dupla,True,Céu Claro,83403,3670,18862,3485,4.4
+Dupla,True,Garoa/Chuvisco,4007,144,723,137,3.59
+Dupla,True,Granizo,5,1,1,1,20.0
+Dupla,True,Neve,1,0,0,0,0.0
+Dupla,True,Nevoeiro/Neblina,581,44,149,37,7.57
+Dupla,True,Nublado,22050,1079,4682,1015,4.89
+Dupla,True,Sol,9823,298,2073,284,3.03
+Dupla,True,Vento,229,11,53,11,4.8
+Dupla,True,,1605,84,433,81,5.23
+Múltipla,False,Chuva,1461,49,223,45,3.35
+Múltipla,False,Céu Claro,7220,343,1435,325,4.75
+Múltipla,False,Garoa/Chuvisco,558,32,89,23,5.73
+Múltipla,False,Granizo,1,0,1,0,0.0
+Múltipla,False,Nevoeiro/Neblina,94,6,13,4,6.38
+Múltipla,False,Nublado,2350,125,374,112,5.32
+Múltipla,False,Sol,821,25,150,24,3.05
+Múltipla,False,Vento,39,6,3,5,15.38
+Múltipla,False,,138,8,34,8,5.8
+Múltipla,True,Chuva,3152,106,563,104,3.36
+Múltipla,True,Céu Claro,24131,987,5198,932,4.09
+Múltipla,True,Garoa/Chuvisco,1389,49,195,47,3.53
+Múltipla,True,Neve,1,0,0,0,0.0
+Múltipla,True,Nevoeiro/Neblina,116,8,22,8,6.9
+Múltipla,True,Nublado,8465,351,1625,332,4.15
+Múltipla,True,Sol,3384,105,652,98,3.1
+Múltipla,True,Vento,123,8,26,8,6.5
+Múltipla,True,,469,15,98,14,3.2
+Simples,False,Chuva,26641,3357,8615,2533,12.6
+Simples,False,Céu Claro,129167,18594,43134,15181,14.4
+Simples,False,Garoa/Chuvisco,7353,846,2074,650,11.51
+Simples,False,Granizo,7,0,1,0,0.0
+Simples,False,Neve,9,0,1,0,0.0
+Simples,False,Nevoeiro/Neblina,2622,472,859,387,18.0
+Simples,False,Nublado,32840,4337,10845,3570,13.21
+Simples,False,Sol,13172,1514,4158,1208,11.49
+Simples,False,Vento,365,52,149,45,14.25
+Simples,False,,3730,654,1415,547,17.53
+Simples,True,Chuva,6756,441,1950,390,6.53
+Simples,True,Céu Claro,63475,3809,19633,3464,6.0
+Simples,True,Garoa/Chuvisco,2989,172,792,147,5.75
+Simples,True,Granizo,4,0,0,0,0.0
+Simples,True,Nevoeiro/Neblina,637,52,174,48,8.16
+Simples,True,Nublado,17160,933,5036,841,5.44
+Simples,True,Sol,7235,275,2018,249,3.8
+Simples,True,Vento,151,9,62,8,5.96
+Simples,True,,1384,97,516,90,7.01

@@ -1,0 +1,16 @@
+tipo_acidente,acidentes,mortos,feridos_graves,acidentes_fatais,mortos_por_100
+Atropelamento de Animal,11251,717,2767,667,6.37
+Atropelamento de Pedestre,28545,8232,12604,8075,28.84
+Capotamento,20242,885,4203,788,4.37
+Colisão com objeto,48126,2671,8997,2350,5.55
+Colisão frontal,41444,15693,27454,11780,37.87
+Colisão lateral,79616,3417,17927,2903,4.29
+Colisão transversal,78623,4139,27085,3598,5.26
+Colisão traseira,119326,5432,26600,4822,4.55
+Engavetamento,9788,302,1405,199,3.09
+Incêndio,11708,13,63,12,0.11
+Não informado,41,3,13,3,7.32
+Outros,4109,188,591,161,4.58
+Queda de ocupante de veículo,28034,876,6415,847,3.12
+Saída de leito carroçável,100214,5988,20935,5227,5.98
+Tombamento,51600,2266,10320,2003,4.39

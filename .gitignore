@@ -1,0 +1,4 @@
+dados/brutos/
+dados/processados/*.parquet
+.ipynb_checkpoints/
+__pycache__/
